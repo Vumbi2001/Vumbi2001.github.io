@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <ul><li><a href="index.html">CV PAGE</a></li></ul>
+    </nav>
+    <div class="container">
+        <div class="contact-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="form-container">
+                <form onsubmit="myfunction(event)">
+                    <h2>CONTACT US</h2>
+                    <div class="form-group"><label for="fname">Fullname</label><input type="text" id="fname" required></div>
+                    <div class="form-group"><label for="address">Address</label><input type="text" id="address" required></div>
+                    <div class="form-group"><label for="email">Email</label><input type="email" id="email" required></div>
+                    <div class="form-group"><label for="Comments">Comments</label><textarea id="Comments" required></textarea></div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
